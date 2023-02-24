@@ -24,6 +24,7 @@
 		A22145CE2996D9FD0049B1E7 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145CD2996D9FD0049B1E7 /* ActivityIndicatorView.swift */; };
 		A22145D02996DA480049B1E7 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145CF2996DA480049B1E7 /* Place.swift */; };
 		A22145D32996E4E40049B1E7 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145D22996E4E40049B1E7 /* NavigationLazyView.swift */; };
+		A28F8DDA29A945D3000BBA06 /* DestinationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F8DD929A945D3000BBA06 /* DestinationHeaderView.swift */; };
 		A2AE1A9129676721009676A5 /* TravelDiscoveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AE1A9029676721009676A5 /* TravelDiscoveryApp.swift */; };
 		A2AE1A9329676721009676A5 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AE1A9229676721009676A5 /* DiscoverView.swift */; };
 		A2AE1A9529676721009676A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AE1A9429676721009676A5 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		A22145CD2996D9FD0049B1E7 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		A22145CF2996DA480049B1E7 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		A22145D22996E4E40049B1E7 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
+		A28F8DD929A945D3000BBA06 /* DestinationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationHeaderView.swift; sourceTree = "<group>"; };
 		A2AE1A8D29676721009676A5 /* TravelDiscovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelDiscovery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2AE1A9029676721009676A5 /* TravelDiscoveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDiscoveryApp.swift; sourceTree = "<group>"; };
 		A2AE1A9229676721009676A5 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		A22145AB2996BDD30049B1E7 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				A28F8DD829A945BE000BBA06 /* DestinationHeaderView */,
 				A22145C62996D9660049B1E7 /* Category */,
 				A2AE1A9229676721009676A5 /* DiscoverView.swift */,
 				A22145AC2996BF0E0049B1E7 /* PopularDestinationsView.swift */,
@@ -109,6 +112,14 @@
 				A22145C92996D9BF0049B1E7 /* CategoryDetailViewModel.swift */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		A28F8DD829A945BE000BBA06 /* DestinationHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				A28F8DD929A945D3000BBA06 /* DestinationHeaderView.swift */,
+			);
+			path = DestinationHeaderView;
 			sourceTree = "<group>";
 		};
 		A2AE1A8429676721009676A5 = {
@@ -242,6 +253,7 @@
 				A22145B82996C2360049B1E7 /* Destination.swift in Sources */,
 				A22145CC2996D9DA0049B1E7 /* ErrorView.swift in Sources */,
 				A22145B62996C2150049B1E7 /* Category.swift in Sources */,
+				A28F8DDA29A945D3000BBA06 /* DestinationHeaderView.swift in Sources */,
 				A22145C82996D9770049B1E7 /* CategoryDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
