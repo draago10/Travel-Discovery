@@ -7,16 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A22145AD2996BF0E0049B1E7 /* PopularDestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145AC2996BF0E0049B1E7 /* PopularDestinationsView.swift */; };
+		A22145AF2996C06B0049B1E7 /* PopularRestaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145AE2996C06B0049B1E7 /* PopularRestaurants.swift */; };
+		A22145B12996C0FC0049B1E7 /* TrendingCreatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145B02996C0FC0049B1E7 /* TrendingCreatorsView.swift */; };
+		A22145B32996C1550049B1E7 /* DiscoveryCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145B22996C1550049B1E7 /* DiscoveryCategoriesView.swift */; };
+		A22145B62996C2150049B1E7 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145B52996C2150049B1E7 /* Category.swift */; };
+		A22145B82996C2360049B1E7 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145B72996C2360049B1E7 /* Destination.swift */; };
+		A22145BA2996C23C0049B1E7 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145B92996C23C0049B1E7 /* Users.swift */; };
+		A22145BC2996C2630049B1E7 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145BB2996C2630049B1E7 /* Restaurant.swift */; };
+		A22145BF2996C4D60049B1E7 /* TileModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145BE2996C4D60049B1E7 /* TileModifier.swift */; };
+		A22145C22996D7C80049B1E7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A22145C12996D7C80049B1E7 /* Kingfisher */; };
+		A22145C52996D7EF0049B1E7 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A22145C42996D7EF0049B1E7 /* SDWebImageSwiftUI */; };
+		A22145C82996D9770049B1E7 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145C72996D9770049B1E7 /* CategoryDetailView.swift */; };
+		A22145CA2996D9BF0049B1E7 /* CategoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145C92996D9BF0049B1E7 /* CategoryDetailViewModel.swift */; };
+		A22145CC2996D9DA0049B1E7 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145CB2996D9DA0049B1E7 /* ErrorView.swift */; };
+		A22145CE2996D9FD0049B1E7 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145CD2996D9FD0049B1E7 /* ActivityIndicatorView.swift */; };
+		A22145D02996DA480049B1E7 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145CF2996DA480049B1E7 /* Place.swift */; };
+		A22145D32996E4E40049B1E7 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22145D22996E4E40049B1E7 /* NavigationLazyView.swift */; };
 		A2AE1A9129676721009676A5 /* TravelDiscoveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AE1A9029676721009676A5 /* TravelDiscoveryApp.swift */; };
-		A2AE1A9329676721009676A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AE1A9229676721009676A5 /* ContentView.swift */; };
+		A2AE1A9329676721009676A5 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AE1A9229676721009676A5 /* DiscoverView.swift */; };
 		A2AE1A9529676721009676A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AE1A9429676721009676A5 /* Assets.xcassets */; };
 		A2AE1A9829676721009676A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AE1A9729676721009676A5 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A22145AC2996BF0E0049B1E7 /* PopularDestinationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularDestinationsView.swift; sourceTree = "<group>"; };
+		A22145AE2996C06B0049B1E7 /* PopularRestaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularRestaurants.swift; sourceTree = "<group>"; };
+		A22145B02996C0FC0049B1E7 /* TrendingCreatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCreatorsView.swift; sourceTree = "<group>"; };
+		A22145B22996C1550049B1E7 /* DiscoveryCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryCategoriesView.swift; sourceTree = "<group>"; };
+		A22145B52996C2150049B1E7 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A22145B72996C2360049B1E7 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		A22145B92996C23C0049B1E7 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		A22145BB2996C2630049B1E7 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		A22145BE2996C4D60049B1E7 /* TileModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileModifier.swift; sourceTree = "<group>"; };
+		A22145C72996D9770049B1E7 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
+		A22145C92996D9BF0049B1E7 /* CategoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailViewModel.swift; sourceTree = "<group>"; };
+		A22145CB2996D9DA0049B1E7 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		A22145CD2996D9FD0049B1E7 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		A22145CF2996DA480049B1E7 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		A22145D22996E4E40049B1E7 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
 		A2AE1A8D29676721009676A5 /* TravelDiscovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelDiscovery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2AE1A9029676721009676A5 /* TravelDiscoveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDiscoveryApp.swift; sourceTree = "<group>"; };
-		A2AE1A9229676721009676A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2AE1A9229676721009676A5 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 		A2AE1A9429676721009676A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2AE1A9729676721009676A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,12 +58,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22145C52996D7EF0049B1E7 /* SDWebImageSwiftUI in Frameworks */,
+				A22145C22996D7C80049B1E7 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A22145AB2996BDD30049B1E7 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				A22145C62996D9660049B1E7 /* Category */,
+				A2AE1A9229676721009676A5 /* DiscoverView.swift */,
+				A22145AC2996BF0E0049B1E7 /* PopularDestinationsView.swift */,
+				A22145AE2996C06B0049B1E7 /* PopularRestaurants.swift */,
+				A22145B02996C0FC0049B1E7 /* TrendingCreatorsView.swift */,
+				A22145B22996C1550049B1E7 /* DiscoveryCategoriesView.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		A22145B42996C1E50049B1E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A22145B52996C2150049B1E7 /* Category.swift */,
+				A22145B72996C2360049B1E7 /* Destination.swift */,
+				A22145B92996C23C0049B1E7 /* Users.swift */,
+				A22145BB2996C2630049B1E7 /* Restaurant.swift */,
+				A22145CF2996DA480049B1E7 /* Place.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A22145BD2996C4C70049B1E7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A22145BE2996C4D60049B1E7 /* TileModifier.swift */,
+				A22145CB2996D9DA0049B1E7 /* ErrorView.swift */,
+				A22145CD2996D9FD0049B1E7 /* ActivityIndicatorView.swift */,
+				A22145D22996E4E40049B1E7 /* NavigationLazyView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A22145C62996D9660049B1E7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A22145C72996D9770049B1E7 /* CategoryDetailView.swift */,
+				A22145C92996D9BF0049B1E7 /* CategoryDetailViewModel.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		A2AE1A8429676721009676A5 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +130,10 @@
 		A2AE1A8F29676721009676A5 /* TravelDiscovery */ = {
 			isa = PBXGroup;
 			children = (
+				A22145BD2996C4C70049B1E7 /* Utility */,
+				A22145B42996C1E50049B1E7 /* Models */,
+				A22145AB2996BDD30049B1E7 /* Discover */,
 				A2AE1A9029676721009676A5 /* TravelDiscoveryApp.swift */,
-				A2AE1A9229676721009676A5 /* ContentView.swift */,
 				A2AE1A9429676721009676A5 /* Assets.xcassets */,
 				A2AE1A9629676721009676A5 /* Preview Content */,
 			);
@@ -83,6 +164,10 @@
 			dependencies = (
 			);
 			name = TravelDiscovery;
+			packageProductDependencies = (
+				A22145C12996D7C80049B1E7 /* Kingfisher */,
+				A22145C42996D7EF0049B1E7 /* SDWebImageSwiftUI */,
+			);
 			productName = TravelDiscovery;
 			productReference = A2AE1A8D29676721009676A5 /* TravelDiscovery.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +196,10 @@
 				Base,
 			);
 			mainGroup = A2AE1A8429676721009676A5;
+			packageReferences = (
+				A22145C02996D7C80049B1E7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				A22145C32996D7EF0049B1E7 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = A2AE1A8E29676721009676A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +226,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2AE1A9329676721009676A5 /* ContentView.swift in Sources */,
+				A22145CA2996D9BF0049B1E7 /* CategoryDetailViewModel.swift in Sources */,
+				A22145BC2996C2630049B1E7 /* Restaurant.swift in Sources */,
+				A22145D32996E4E40049B1E7 /* NavigationLazyView.swift in Sources */,
+				A22145BF2996C4D60049B1E7 /* TileModifier.swift in Sources */,
+				A22145B12996C0FC0049B1E7 /* TrendingCreatorsView.swift in Sources */,
+				A22145BA2996C23C0049B1E7 /* Users.swift in Sources */,
+				A22145AD2996BF0E0049B1E7 /* PopularDestinationsView.swift in Sources */,
+				A22145CE2996D9FD0049B1E7 /* ActivityIndicatorView.swift in Sources */,
+				A2AE1A9329676721009676A5 /* DiscoverView.swift in Sources */,
+				A22145B32996C1550049B1E7 /* DiscoveryCategoriesView.swift in Sources */,
+				A22145AF2996C06B0049B1E7 /* PopularRestaurants.swift in Sources */,
 				A2AE1A9129676721009676A5 /* TravelDiscoveryApp.swift in Sources */,
+				A22145D02996DA480049B1E7 /* Place.swift in Sources */,
+				A22145B82996C2360049B1E7 /* Destination.swift in Sources */,
+				A22145CC2996D9DA0049B1E7 /* ErrorView.swift in Sources */,
+				A22145B62996C2150049B1E7 /* Category.swift in Sources */,
+				A22145C82996D9770049B1E7 /* CategoryDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +441,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A22145C02996D7C80049B1E7 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		A22145C32996D7EF0049B1E7 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A22145C12996D7C80049B1E7 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A22145C02996D7C80049B1E7 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		A22145C42996D7EF0049B1E7 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A22145C32996D7EF0049B1E7 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2AE1A8529676721009676A5 /* Project object */;
 }
