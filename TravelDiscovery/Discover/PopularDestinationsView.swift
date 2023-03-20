@@ -33,7 +33,7 @@ struct PopularDestinationsView: View {
                 HStack(spacing: 8.0) {
                     ForEach(destinations, id: \.self) { destination in
                         NavigationLink(
-                            destination: PopularDestinationDetailsView(destination: destination),
+                            destination:NavigationLazyView(PopularDestinationDetailsView(destination: destination)),
                             label: {
                                 PopularDestinationTile(destination: destination)
                             })
@@ -45,18 +45,48 @@ struct PopularDestinationsView: View {
     }
 }
 
+struct DestinationDetails: Decodable {
+    let photos: [String]
+    let description: String
+
+}
+
+class DestinationDetailsViewModel: ObservableObject {
+    @Published var isLoading = true
+    @Published var destinationDetails: DestinationDetails?
+
+    init(name: String) {
+        let fixedURL = "https://travel.letsbuildthatapp.com/travel_discovery/destination?name=\(name.lowercased())".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        guard let url = URL(string: fixedURL) else {return}
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            DispatchQueue.main.async {
+                guard let data = data else {return}
+                do {
+                    self.destinationDetails = try JSONDecoder().decode(DestinationDetails.self, from: data)
+                } catch {
+                    print(error)
+                }
+            }
+        }.resume()
+    }
+}
+
 struct PopularDestinationDetailsView: View {
+    @ObservedObject var vm: DestinationDetailsViewModel
     let destination: Destination
     @State var region : MKCoordinateRegion
     @State var isShowingAttractions = false
     init(destination: Destination) {
         self.destination = destination
         self._region = State(initialValue: MKCoordinateRegion(center: .init(latitude: destination.latitude, longitude: destination.longitude), span: .init(latitudeDelta: 0.1, longitudeDelta: 0.1)))
+        self.vm = .init(name: destination.name)
     }
     var body: some View {
         ScrollView {
-            DestinationHeaderView()
-                .frame(height: 250)
+            if let photos = vm.destinationDetails?.photos {
+                DestinationHeaderView(imageNames: photos)
+                    .frame(height: 250)
+            }
             VStack (alignment: .leading) {
                 Text(destination.name)
                     .font(.system(size: 18, weight: .bold))
@@ -69,7 +99,7 @@ struct PopularDestinationDetailsView: View {
                             .foregroundColor(.orange)
                     }
                 }.padding(.top, 2)
-                Text("Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré.")
+                Text(vm.destinationDetails?.description ?? "")
                     .padding(.top, 4)
                     .font(.system(size: 14))
                 HStack {Spacer()}
